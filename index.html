@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Avrilesthel Restaurant</title>
+  <link rel="stylesheet" href="index.css"/>
+</head>
+<body class="light-theme">
+  <header>
+    <h1>Avrilesthel</h1>
+    <button id="theme-toggle" aria-label="Toggle color theme">🌙 Dark Mode</button>
+  </header>
+
+  <main>
+    <section id="menu" role="list" aria-label="Menu Items"></section>
+
+    <section id="order-summary">
+      <h2>Your Order</h2>
+      <ul id="order-items" role="list" aria-label="Items in your order"></ul>
+      <p id="total-price">Total: $0.00</p>
+      <button id="complete-order">Complete Order</button>
+    </section>
+  </main>
+
+  <!-- Payment Modal -->
+  <div id="payment-modal" role="dialog" aria-modal="true">
+    <div class="modal-content">
+      <button id="close-modal" aria-label="Close payment modal">✖</button>
+      <h2>Enter Payment Details</h2>
+      <input id="user-name" type="text" placeholder="Full Name" required aria-required="true" />
+      <input id="card-number" type="text" placeholder="Card Number" required aria-required="true" />
+      <input id="expiry-date" type="text" placeholder="MM/YY" required aria-required="true" />
+      <input id="cvv" type="text" placeholder="CVV" required aria-required="true" />
+      <select id="payment-method" required aria-required="true">
+        <option value="">Choose payment method</option>
+        <option>Card</option>
+        <option>PayPal</option>
+        <option>Apple Pay</option>
+        <option>Google Pay</option>
+        <option>Crypto</option>
+      </select>
+      <button id="pay-now">Pay Now</button>
+    </div>
+  </div>
+
+  <footer>
+    <p>Designed by Avrilesthel ✨</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
