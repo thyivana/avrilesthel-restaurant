@@ -8,7 +8,7 @@ npm start
 Head over to https://vitejs.dev/ to learn more about configuring vite
 ## About Scrimba
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
+At Scrimba our goal is to create the best coding school at the cost of a gym membership! 💜
 If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live, what conditions they're in and the size of their wallets 🎉
 The Frontend Developer Career Path aims to teach you everything you need to become a Junior-skilled Developer, or you could take a deep-dive with one of our advanced courses to attain advanced skill set 🚀
 
